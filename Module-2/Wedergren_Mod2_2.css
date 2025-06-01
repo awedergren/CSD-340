@@ -1,0 +1,41 @@
+/* Amanda Wedergren */
+/* Module 2.2 Assignment */
+
+
+HTML, body {
+	size: 16px;}
+
+h1 {
+	weight: 700;
+	text-transform: uppercase;
+	text-align: center;}
+
+h2 {
+	weight: 500;
+	text-align: left;
+	padding-top: 15px}
+
+p {
+	line-height: 1.4em;}
+
+.intro {
+	text-indent: 2em;}
+
+.sentence {
+	font-style: italic;}
+
+address {
+	text-align: center;}
+
+a:link {
+	font-style: bold;
+	font-size: 1.25em;
+	font-color: #4F3674;}
+
+a:visited {
+	font-color: #CA4E4E;}
+
+a:hover {
+	background-color: #D6A800;}
+
+
