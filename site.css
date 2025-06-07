@@ -1,0 +1,48 @@
+/* Amanda Wedergren */
+/* June 6, 2025 */
+/* Module 3.2 Assignment */
+
+
+.container {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+h1, h2, h3, h4 {
+            padding: 10px; 
+            border: 1px solid #D6A800;
+        }
+
+h1 {
+	    background-color: #bf9ff2; /* Light purple background */
+            color: #333; /* Text color */
+	}
+
+h2 {
+            background-color: #eca5ed; /* Light pink background */
+            color: #333; /* Text color */
+	}
+
+h3 {
+            background-color: #9fd4f2; /* Light blue background */
+            color: #333; /* Text color */
+	}
+
+h4 {
+            background-color: #feffdd; /* Light yellow background */
+            color: #333; /* Text color */
+	}
+
+a {
+  color: #367ca9;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #e53cdb;
+}
+
+a:hover {
+  color: #8f36a9; 
+}
