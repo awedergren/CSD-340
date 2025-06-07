@@ -1,0 +1,54 @@
+/* Amanda Wedergren */
+/* June 6, 2025 */
+/* Module 3.3 Assignment */
+
+h1 {
+ text-align: center;
+}
+
+.divider-left, .divider-right {
+ width: 45%;
+}
+
+.full-width {
+ width: 100%;
+ margin-top: 60%;
+  float: right;
+  margin-bottom: 20px;
+}
+
+h3 {
+ weight: 500;
+}
+
+ol, ul {
+ weight: 300;
+}
+
+.divider-left {
+  border: 1px solid red;
+  border-radius: 15px;
+  padding: 10px; 
+}
+
+.divider-right {
+  border: 1px dashed red;
+  border-radius: 15px;
+  padding: 10px; 
+}
+
+ul {
+  list-style-type: upper-roman;
+}
+
+a {
+  text-decoration: none;  
+}
+
+a:hover {
+  text-decoration: underline; 
+}
+
+.float-right {
+ float: right;
+}
