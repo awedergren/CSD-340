@@ -1,0 +1,90 @@
+<!-- Amanda Wedergren
+June 12, 2025
+Module 4.2 Assignment -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" href="Wedergren_Mod4_2.css">
+
+
+</head>
+
+<body> 
+
+<div id="container">
+
+<h1>Assignment 4.2: Build a Web Page Exercise - Part 4
+</h1>
+
+  <style>
+    h1 {
+   text-align: center;
+    }
+  </style>
+
+<div id="image-gallery">
+
+    <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px; /* Space between columns */
+      padding: 10px;
+    }
+
+
+    /* Styling for images */
+    .image-grid img {
+      width: 100%; /* Make images fill their grid cell */
+      height: auto; /* Maintain aspect ratio */
+      object-fit: cover; /* Ensures images fit nicely */
+      border-radius: 8px; /* Optional: Rounded corners */
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item">
+      <h3>A Rose in Winter</h3>
+	<figure>
+    		<img src="images/A Rose in Winter.jpg" alt="A Rose in Winter book cover image" width="300">
+ 
+	</figure>
+	<figcaption>Author: Kathleen Woodiwiss</figcaption>
+	</div>
+    <div class="grid-item">
+      <h3>Count of Monte Cristo</h3>
+	<figure>
+    		<img src="images/Count of Monte Cristo.jpg" alt="Count of Monte Cristo book cover image" width="300">>
+ 
+	</figure>
+	<figcaption>Author: Alexandre Dumas</figcaption>
+	</div>
+    <div class="grid-item">
+      <h3>My Side of the Mountain</h3>
+	<figure>
+    		<img src="images/My Side of the Mountain.jpg" alt="My Side of the Mountain book cover image" width="300">>
+ 
+	</figure>
+	<figcaption>Author: Jean Craighead George</figcaption>
+	</div>
+</div>
+
+<div class="full-width">
+	<a href="../index.html">back to Landing Page</a>
+</div>
+
+
+
+</body>
+
+
+
+
+</html>
