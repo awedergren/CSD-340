@@ -3,7 +3,7 @@
 /* Module 6.2 Assignment */
 
 header {
-   background-color: rgba(68, 166, 242); /* blue color */
+   background-color: #9fd4f2; /* blue color */
    color: white; /* white text */
    padding: 20px; /* padding */
    text-align: center; /* center text */
@@ -15,8 +15,8 @@ h1 {
 
 .navbar {
    overflow: hidden;
-   background-color: rgba(68, 166, 242); /* blue color */
-   border-bottom: 15px solid rgba(242, 68, 207); /* pink color */
+   background-color: #9fd4f2; /* blue color */
+   border-bottom: 15px solid #eca5ed; /* pink color */
 }
 
 .navbar a {
@@ -29,7 +29,7 @@ h1 {
 }
 
 .navbar a:hover {
-   background-color: rgba(177, 33, 255); /* purple color */
+   background-color: #bf9ff2; /* purple color */
    color: white;
 }
 
@@ -47,17 +47,17 @@ h1 {
 }
 
 .card a:visted {
-   color: rgba(177, 33, 255); /* purple color */
+   color: #bf9ff2; /* purple color */
 }
 
 .card a:hover {
-   color: rgba(242, 68, 207); /* pink color */
+   color: #eca5ed; /* pink color */
 }
 
 .card-title {
    text-align: center;
    font-size: 2em;
-   color: rgba(177, 33, 255);
+   color: #bf9ff2; /* purple color */
    font-weight: 400;
 }
 
@@ -70,7 +70,7 @@ h1 {
 }
 
 footer {
-   background-color: rgba(68, 166, 242); /* blue color */
+   background-color: #9fd4f2; /* blue color */
    position: absolute;
    bottom: 0;
    width: 100%;
