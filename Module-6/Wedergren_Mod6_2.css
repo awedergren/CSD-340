@@ -52,11 +52,11 @@ h1 {
 }
 
 .card a:visted {
-   color: #bf9ff2; /* purple color */
+   color: #e53cdb; /* pink color */
 }
 
 .card a:hover {
-   color: #eca5ed; /* pink color */
+   color: #8f36a9; /* purple color */
 }
 
 .card-title {
