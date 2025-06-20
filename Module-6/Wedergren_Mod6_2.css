@@ -63,6 +63,7 @@ h1 {
 
 .card-content {
    padding: 2px 16px;
+   color: #9fd4f2; /* blue color */
 }
 
 .card:hover {
