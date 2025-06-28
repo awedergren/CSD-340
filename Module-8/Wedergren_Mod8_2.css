@@ -84,6 +84,7 @@ th {
    font-size: 2em;
    color: #8f36a9; /* purple color */
    font-weight: 400;
+   padding: 10px;
 }
 
 .card-content {
