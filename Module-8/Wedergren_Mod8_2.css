@@ -3,3 +3,122 @@
 /* Module 8.2 Assignment */
 /* css styling for 8.2 html */
 
+
+table {
+   border-collapse: collapse;
+   width: 100%;
+   margin-bottom: 30px;
+}
+
+header {
+   background-color: #9fd4f2; /* blue color */
+   color: white; /* white text */
+   padding: 20px; /* padding */
+   text-align: center; /* center text */
+}
+
+h1 {
+   weight: 400;
+}
+
+td {
+   border: 1px solid #ddd;
+   padding: 8px;
+}
+
+th {
+   border: 1px solid #ddd;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   padding: 8px;
+   text-align: left;
+   background-color: #9fd4f2; /* blue color */
+   color: white; /* white text */
+}
+
+.navbar {
+   overflow: hidden;
+   background-color: #9fd4f2; /* blue color */
+   border-bottom: 15px solid #eca5ed; /* pink color */
+}
+
+.navbar a {
+   display: block;
+   float: left;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+.navbar a:hover {
+   background-color: #bf9ff2; /* purple color */
+   color: white;
+}
+
+.container {
+   margin: 2% 5% 100px 5%; /* top, right, bottom, left */
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   transition: 0.3s;
+   width: 50%;
+   color: blue
+}
+
+.card a {
+   color: blue;
+}
+
+.card a:visted {
+   color: #e53cdb; /* pink color */
+}
+
+.card a:hover {
+   color: #8f36a9; /* purple color */
+}
+
+.card-title {
+   text-align: center;
+   font-size: 2em;
+   color: #8f36a9; /* purple color */
+   font-weight: 400;
+}
+
+.card-content {
+   padding: 2px 16px;
+}
+
+.card:hover {
+   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+footer {
+   color: white;
+   background-color: #9fd4f2; /* blue color */
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   font-style: italic;
+}
+
+footer p {
+
+   weight: 400;
+   float: right;
+   padding-right: 10px;
+
+}
+
+footer a {
+   text-decoration: none;
+   color: white;
+}
+
+footer a:hover {
+   text-decoration: underline;
+
+
+}
