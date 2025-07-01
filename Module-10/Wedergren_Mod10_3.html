@@ -32,12 +32,25 @@ Adding JavaScript to html files-->
 <div id="container">
 
 
-<h1>Assignment 10.3: JavaScript - Part 2"
-</h1>
+<h1>Assignment 10.3: JavaScript - Part 2"</h1>
 
 
+  <img id="myImage" src="Family 2019.jpg" alt="Image 1" style="width:400px;cursor:pointer;" onclick="changeImage()">
 
-
+  <!-- JavaScript -->
+  <script>
+    function changeImage() {
+      // Get the image element
+      const image = document.getElementById('myImage');
+      
+      // Check the current source and toggle it
+      if (image.src.includes('Family 2024.jpg')) {
+        image.src = 'Family 2019.jpg'; // Change to the second image
+      } else {
+        image.src = 'Family 2024.jpg'; // Change back to the first image
+      }
+    }
+  </script>
 
 </body>
 
