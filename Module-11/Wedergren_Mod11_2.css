@@ -1,0 +1,36 @@
+/* Amanda Wedergren */
+/* July 16, 2025 */
+/* Module 11.2 Assignment */
+
+body {
+   background-color: lightyellow;
+}
+
+h1 {
+   color: #72c0ec; /* darker blue color */
+}
+
+h2 {
+  font-size: 18px;
+}
+
+/* Background color for the buttons */
+button {
+   background-color: #9fd4f2; /* blue color */
+}  
+
+/* Change background color on hover */
+button:hover {
+   background-color: #bf9ff2; /* purple color */
+}
+
+/* Change background color on focus */
+input:focus {
+  background-color: #eca5ed; /* pink color */
+   outline: none; /* Removes default browser outline */
+}
+
+/* Change background color on hover */
+input:hover {
+   background-color: #bf9ff2; /* purple color */
+}
