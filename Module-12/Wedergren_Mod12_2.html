@@ -1,0 +1,116 @@
+<!-- Amanda Wedergren
+July 20, 2025
+Module 12.2 Assignment -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" href="Wedergren_Mod12_2.css">
+
+
+</head>
+
+<body> 
+
+<div id="container">
+
+<h1>Assignment 12.2: JavaScript - Part 4
+</h1>
+
+  <style>
+    .container {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .divider {
+      width: 45%;
+    }
+  </style>
+
+
+<body>
+  <div class="container">
+    <div class="divider-left"</div>
+
+      <h3>Top 10 Favorite Books</h3>
+
+  <button onclick="displayAscending()">Top to Bottom</button>
+  <button onclick="displayDescending()">Bottom to Top</button>
+  <ol id="bookList"></ol>
+
+  <script>
+    // Array of top 10 books
+      const books = [
+      "A Rose in Winter",
+      "The Count of Monte Cristo",
+      "The Wolf Hotel Series",
+      "Harry Potter Series",
+      "Amityville Horror",
+      "Ready, Player One",
+      "My Side of the Mountain",
+      "Charlotte's Web",
+      "Handmaid's Tale",
+      "The Secrets We Keep"
+    ];
+
+    // Function to display books in ascending order
+    function displayAscending() {
+      const sortedBooks = [...books]; // Sort in ascending order
+      renderList(sortedBooks);
+    }
+
+    // Function to display books in descending order
+    function displayDescending() {
+      const sortedBooks = [...books].reverse(); // Sort in descending order
+      renderList(sortedBooks);
+    }
+
+    // Helper function to render the book list
+    function renderList(bookArray) {
+      const bookList = document.getElementById("bookList");
+      bookList.innerHTML = ""; // Clear existing list
+      bookArray.forEach(book => {
+        const listItem = document.createElement("li");
+        listItem.textContent = book;
+        bookList.appendChild(listItem);
+      });
+    }
+
+    // Initial display of unsorted books
+    renderList(books);
+  </script>
+
+    </div>
+
+    <div class="divider-right"</div>
+<h3>5 Things I've Learned Since the Course Started</h3>
+      <ul>
+        <li>The importance of clean and organized code.</li>
+        <li>How to effectively use CSS for styling web pages.</li>
+        <li>The basics of responsive web design.</li>
+        <li>How to structure HTML documents semantically.</li>
+        <li>The value of continuous learning and practice.</li>
+      </ul>
+    </div>
+
+  </div>
+
+
+ <div class="full-width">
+	<a href="../index.html" class="float-right">back to Landing Page</a>
+</div>
+
+
+</body>
+
+
+
+
+</html>
